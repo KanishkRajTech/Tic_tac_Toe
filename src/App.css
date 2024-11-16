@@ -1,0 +1,14 @@
+:root {
+  --yellow: #ffc107;
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

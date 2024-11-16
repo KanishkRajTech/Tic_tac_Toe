@@ -1,0 +1,26 @@
+.grid{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.turn-highlight{
+    color: wheat;
+    text-align: center;
+}
+.reset {
+    background-color: rgb(9, 255, 0);
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+  
+    /* Center the button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; /* Ensures it's horizontally centered */
+  }
